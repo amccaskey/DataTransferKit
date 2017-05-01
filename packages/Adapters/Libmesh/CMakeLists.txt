@@ -14,6 +14,7 @@ TRIBITS_SUBPACKAGE(LibmeshAdapters)
 ##---------------------------------------------------------------------------##
 ## Add library, test, and examples.
 ##---------------------------------------------------------------------------##
+include_directories(${CMAKE_SOURCE_DIR}/packages/Kokkos/src)
 
 ADD_SUBDIRECTORY(src)
 
